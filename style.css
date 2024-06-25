@@ -1,0 +1,114 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+    background-color:rgb(216, 216, 121) ;
+   
+}
+
+.logo{
+  font-family: "Butterfly Kids", cursive;
+  font-size: 50px;
+  color: rgb(38, 93, 75);
+  
+}
+.gtext{
+    
+    background: gradient(linear, left top, left bottom, color-stop(61.46%, #86971C), to(#124838)); 
+}
+.btn{
+  background:  rgb(38, 93, 75);
+  color: #fff;
+}
+.bimg{
+  border-radius: 40px;
+  width: 50%;
+
+}
+.aboutcard{
+  position: relative;
+  border-radius: 40px;
+  border: 2px solid #ffda91;
+  background: #fff;
+  padding: 24px 35px;
+  margin-top: -50px;
+  z-index: 99;
+}
+
+.fsize{
+  font-size: 80px;
+  color: #d4c625;
+}
+
+.teamimg{
+  border-radius: 70px;
+  border: 2px solid #d4c625 ;
+}
+
+.htext{
+  color: #d4c625;
+}
+.bgbox{
+  background: #ebe4a0;
+  border: 2px solid;
+  
+}
+
+.sbox{
+  border: 2px solid rgb(38, 93, 75);
+
+}
+
+.footer{
+  position: relative;
+  min-height: 100vh;
+  background-image: url(/img/BOTTOM.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+}
+
+.navlist{
+  list-style-type: none;
+  color: antiquewhite;
+  font-size: 20px;
+ 
+  justify-content: space-between;
+  
+}
+
+.follow{
+  color: #ffda91;
+
+}
+.icon{
+  color: #fff;
+  padding: 30px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.concet{
+  color: #ffda91;
+}
+.concet p{
+  color: #fff;
+}
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
