@@ -1,0 +1,79 @@
+
+li:hover {
+    color: rgb(81, 230, 81);
+
+}
+
+.sticky-top {
+    top: -150px;
+    transition: .5s;
+}
+
+.navbar .brand {
+    position: absolute;
+    padding: 0;
+    width: 100px;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+
+.ctext{
+    color: green;
+}
+.wcolor{
+    color: #fff;
+}
+
+.bgbox{
+    background-image: url(/img2/video-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.icon{
+    color: #fff;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+.borderbox{
+    border: 5px solid green;
+    width: 50%;
+}
+
+.boximg{
+    background-image: linear-gradient(rgba(0, 60, 0, 0.8), rgba(0, 60, 0, 0.8)), url(/img2/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.zoomIn{
+    animation-name: zoomIn;
+}
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale3d(.3,.3,.3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.zoomIn {
+    animation-name: zoomIn;
+}
+
+
+
+
+.animated{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
